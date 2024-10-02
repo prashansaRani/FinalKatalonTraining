@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS4_LogoutPage" time="19.311" tests="1" failures="0" errors="0">
+   <testsuite name="TS4_LogoutPage" tests="1" failures="0" errors="0" time="19.311" skipped="0" timestamp="03-10-2024T01:30:17" hostname="UC276JC - IN3155587W2.ey.net" id="Test Suites/TS4_LogoutPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\UC276JC\\git\\FinalKatalonTraining\\Reports\\20241003_013010\\TS4_LogoutPage\\20241003_013010"/>
+         <property name="logFiles" value="C:\\Users\\UC276JC\\git\\FinalKatalonTraining\\Reports\\20241003_013010\\TS4_LogoutPage\\20241003_013010\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="UC276JC - IN3155587W2.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Edge Chromium 129"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="d52850d671a08af2ab162c1cc0b13771"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC4_LogoutPage" time="18.891" classname="Test Cases/TC4_LogoutPage" status="PASSED">
+         <system-out><![CDATA[03-10-2024T01:30:17 - [TEST_CASE][PASSED] - Test Cases/TC4_LogoutPage: Test Cases/TC4_LogoutPage
+
+03-10-2024T01:30:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-10-2024T01:30:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+03-10-2024T01:30:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-10-2024T01:30:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-10-2024T01:30:24 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+03-10-2024T01:30:28 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+03-10-2024T01:30:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC4_LogoutPage_OR/div_CURA Healthcare Service                _bba294")): Object: 'Object Repository/TC4_LogoutPage_OR/div_CURA Healthcare Service                _bba294' is clicked on
+
+03-10-2024T01:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC4_LogoutPage_OR/div_CURA Healthcare Service                _bba294' is clicked on
+
+03-10-2024T01:30:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC4_LogoutPage_OR/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/TC4_LogoutPage_OR/i_CURA Healthcare_fa fa-bars' is clicked on
+
+03-10-2024T01:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC4_LogoutPage_OR/i_CURA Healthcare_fa fa-bars' is clicked on
+
+03-10-2024T01:30:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC4_LogoutPage_OR/a_Login")): Object: 'Object Repository/TC4_LogoutPage_OR/a_Login' is clicked on
+
+03-10-2024T01:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC4_LogoutPage_OR/a_Login' is clicked on
+
+03-10-2024T01:30:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC4_LogoutPage_OR/span_Demo account_glyphicon glyphicon-user")): Object: 'Object Repository/TC4_LogoutPage_OR/span_Demo account_glyphicon glyphicon-user' is clicked on
+
+03-10-2024T01:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC4_LogoutPage_OR/span_Demo account_glyphicon glyphicon-user' is clicked on
+
+03-10-2024T01:30:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC4_LogoutPage_OR/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC4_LogoutPage_OR/input_Username_username'
+
+03-10-2024T01:30:32 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC4_LogoutPage_OR/input_Username_username'
+
+03-10-2024T01:30:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC4_LogoutPage_OR/input_Demo account_form-control"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC4_LogoutPage_OR/input_Demo account_form-control'
+
+03-10-2024T01:30:33 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC4_LogoutPage_OR/input_Demo account_form-control'
+
+03-10-2024T01:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC4_LogoutPage_OR/input_Demo account_form-control")): Object: 'Object Repository/TC4_LogoutPage_OR/input_Demo account_form-control' is clicked on
+
+03-10-2024T01:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC4_LogoutPage_OR/input_Demo account_form-control' is clicked on
+
+03-10-2024T01:30:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC4_LogoutPage_OR/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC4_LogoutPage_OR/input_Password_password'
+
+03-10-2024T01:30:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC4_LogoutPage_OR/input_Password_password'
+
+03-10-2024T01:30:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC4_LogoutPage_OR/button_Login")): Object: 'Object Repository/TC4_LogoutPage_OR/button_Login' is clicked on
+
+03-10-2024T01:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC4_LogoutPage_OR/button_Login' is clicked on
+
+03-10-2024T01:30:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC4_LogoutPage_OR/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/TC4_LogoutPage_OR/i_CURA Healthcare_fa fa-bars' is clicked on
+
+03-10-2024T01:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC4_LogoutPage_OR/i_CURA Healthcare_fa fa-bars' is clicked on
+
+03-10-2024T01:30:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/TC4_LogoutPage_OR/a_Logout"), 0): Object 'Object Repository/TC4_LogoutPage_OR/a_Logout' is present
+
+03-10-2024T01:30:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-10-2024T01:30:35 - [MESSAGE][PASSED] - Object 'Object Repository/TC4_LogoutPage_OR/a_Logout' is present
+
+03-10-2024T01:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC4_LogoutPage_OR/a_Logout")): Object: 'Object Repository/TC4_LogoutPage_OR/a_Logout' is clicked on
+
+03-10-2024T01:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TC4_LogoutPage_OR/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-10-2024T01:30:17 - [TEST_SUITE][PASSED] - TS4_LogoutPage: Test Cases/TC4_LogoutPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

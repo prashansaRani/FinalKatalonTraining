@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS13_BookAppt,Edge Chromium 129,,,03-10-2024 01:49:16,03-10-2024 01:49:37,20.596s,PASSED
+,,,,,,,
+Test Cases/TC13_BookAppt,Edge Chromium 129,,,03-10-2024 01:49:17,03-10-2024 01:49:37,20.225s,PASSED
+"callTestCase(findTestCase(""TC7_MakeApptTokyoPage""), [:], STOP_ON_FAILURE)",Edge Chromium 129,,,03-10-2024 01:49:17,03-10-2024 01:49:36,18.550s,PASSED
+"click(findTestObject(""Object Repository/TC13_BookAppt_OR/button_Book Appointment""))",Edge Chromium 129,,,03-10-2024 01:49:36,03-10-2024 01:49:36,0.624s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/appointment.php#summary"")",Edge Chromium 129,,,03-10-2024 01:49:36,03-10-2024 01:49:36,0.058s,PASSED
+"click(findTestObject(""Object Repository/TC13_BookAppt_OR/h2_Appointment Confirmation""))",Edge Chromium 129,,,03-10-2024 01:49:36,03-10-2024 01:49:37,0.306s,PASSED

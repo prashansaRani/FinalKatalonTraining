@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC9_MakeApptSeoulPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1bc3063e-5741-44b6-ac28-4fa72f28c938</testCaseGuid>
+</TestCaseEntity>

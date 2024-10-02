@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS14_ApptConfirmationPage" time="23.935" tests="1" failures="0" errors="0">
+   <testsuite name="TS14_ApptConfirmationPage" tests="1" failures="0" errors="0" time="23.935" skipped="0" timestamp="03-10-2024T01:51:21" hostname="UC276JC - IN3155587W2.ey.net" id="Test Suites/TS14_ApptConfirmationPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\UC276JC\\git\\FinalKatalonTraining\\Reports\\20241003_015114\\TS14_ApptConfirmationPage\\20241003_015114"/>
+         <property name="logFiles" value="C:\\Users\\UC276JC\\git\\FinalKatalonTraining\\Reports\\20241003_015114\\TS14_ApptConfirmationPage\\20241003_015114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="UC276JC - IN3155587W2.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Edge Chromium 129"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="7e01b6194b74926b2193d68424f23290"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC14_ApptConfirmationPage" time="23.557" classname="Test Cases/TC14_ApptConfirmationPage" status="PASSED">
+         <system-out><![CDATA[03-10-2024T01:51:21 - [TEST_CASE][PASSED] - Test Cases/TC14_ApptConfirmationPage: Test Cases/TC14_ApptConfirmationPage
+
+03-10-2024T01:51:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC13_BookAppt"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC13_BookAppt' successfully
+
+03-10-2024T01:51:23 - [TEST_CASE][PASSED] - Test Cases/TC13_BookAppt: Test Cases/TC13_BookAppt
+
+03-10-2024T01:51:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC7_MakeApptTokyoPage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC7_MakeApptTokyoPage' successfully
+
+03-10-2024T01:51:23 - [TEST_CASE][PASSED] - Test Cases/TC7_MakeApptTokyoPage: Test Cases/TC7_MakeApptTokyoPage
+
+03-10-2024T01:51:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-10-2024T01:51:24 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+03-10-2024T01:51:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-10-2024T01:51:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-10-2024T01:51:29 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+03-10-2024T01:51:33 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+03-10-2024T01:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/i_CURA Healthcare_fa fa-bars' is clicked on
+
+03-10-2024T01:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/i_CURA Healthcare_fa fa-bars' is clicked on
+
+03-10-2024T01:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/a_Login")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/a_Login' is clicked on
+
+03-10-2024T01:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/a_Login' is clicked on
+
+03-10-2024T01:51:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control' is clicked on
+
+03-10-2024T01:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control' is clicked on
+
+03-10-2024T01:51:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Username_username'
+
+03-10-2024T01:51:36 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Username_username'
+
+03-10-2024T01:51:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1'
+
+03-10-2024T01:51:37 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1'
+
+03-10-2024T01:51:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1' is clicked on
+
+03-10-2024T01:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1' is clicked on
+
+03-10-2024T01:51:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Password_password'
+
+03-10-2024T01:51:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Password_password'
+
+03-10-2024T01:51:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/button_Login")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/button_Login' is clicked on
+
+03-10-2024T01:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/button_Login' is clicked on
+
+03-10-2024T01:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/label_Apply for hospital readmission")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/label_Apply for hospital readmission' is clicked on
+
+03-10-2024T01:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/label_Apply for hospital readmission' is clicked on
+
+03-10-2024T01:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+03-10-2024T01:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+03-10-2024T01:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/td_24")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/td_24' is clicked on
+
+03-10-2024T01:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/td_24' is clicked on
+
+03-10-2024T01:51:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/textarea_Comment_comment"), "Tokyo appointment"): Text 'Tokyo appointment' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/textarea_Comment_comment'
+
+03-10-2024T01:51:41 - [MESSAGE][PASSED] - Text 'Tokyo appointment' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/textarea_Comment_comment'
+
+03-10-2024T01:51:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/div_Comment")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/div_Comment' is clicked on
+
+03-10-2024T01:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/div_Comment' is clicked on
+
+03-10-2024T01:51:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment' is clicked on
+
+03-10-2024T01:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment' is clicked on
+
+03-10-2024T01:51:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment' are matched.
+
+03-10-2024T01:51:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment' are matched.
+
+03-10-2024T01:51:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC7_MakeApptTokyoPage' successfully
+
+03-10-2024T01:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC13_BookAppt_OR/button_Book Appointment")): Object: 'Object Repository/TC13_BookAppt_OR/button_Book Appointment' is clicked on
+
+03-10-2024T01:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TC13_BookAppt_OR/button_Book Appointment' is clicked on
+
+03-10-2024T01:51:42 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/appointment.php#summary"): Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+03-10-2024T01:51:42 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+03-10-2024T01:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC13_BookAppt_OR/h2_Appointment Confirmation")): Object: 'Object Repository/TC13_BookAppt_OR/h2_Appointment Confirmation' is clicked on
+
+03-10-2024T01:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC13_BookAppt_OR/h2_Appointment Confirmation' is clicked on
+
+03-10-2024T01:51:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC13_BookAppt' successfully
+
+03-10-2024T01:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC14_ApptConfirmationPage_OR/h2_Appointment Confirmation")): Object: 'Object Repository/TC14_ApptConfirmationPage_OR/h2_Appointment Confirmation' is clicked on
+
+03-10-2024T01:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC14_ApptConfirmationPage_OR/h2_Appointment Confirmation' is clicked on
+
+03-10-2024T01:51:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/TC14_ApptConfirmationPage_OR/h2_Appointment Confirmation"), 0): Object 'Object Repository/TC14_ApptConfirmationPage_OR/h2_Appointment Confirmation' is present
+
+03-10-2024T01:51:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-10-2024T01:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/TC14_ApptConfirmationPage_OR/h2_Appointment Confirmation' is present
+
+03-10-2024T01:51:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC14_ApptConfirmationPage_OR/p_Please be informed that your appointment _11813a")): Object: 'Object Repository/TC14_ApptConfirmationPage_OR/p_Please be informed that your appointment _11813a' is clicked on
+
+03-10-2024T01:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC14_ApptConfirmationPage_OR/p_Please be informed that your appointment _11813a' is clicked on
+
+03-10-2024T01:51:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/TC14_ApptConfirmationPage_OR/p_Please be informed that your appointment _11813a"), 0): Object 'Object Repository/TC14_ApptConfirmationPage_OR/p_Please be informed that your appointment _11813a' is present
+
+03-10-2024T01:51:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-10-2024T01:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/TC14_ApptConfirmationPage_OR/p_Please be informed that your appointment _11813a' is present
+
+03-10-2024T01:51:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/TC14_ApptConfirmationPage_OR/a_Go to Homepage"), 0): Object 'Object Repository/TC14_ApptConfirmationPage_OR/a_Go to Homepage' is present
+
+03-10-2024T01:51:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-10-2024T01:51:45 - [MESSAGE][PASSED] - Object 'Object Repository/TC14_ApptConfirmationPage_OR/a_Go to Homepage' is present
+
+03-10-2024T01:51:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-10-2024T01:51:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-10-2024T01:51:21 - [TEST_SUITE][PASSED] - TS14_ApptConfirmationPage: Test Cases/TC14_ApptConfirmationPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS3_LoginPage,Edge Chromium 129,,,03-10-2024 01:29:27,03-10-2024 01:29:41,14.511s,PASSED
+,,,,,,,
+Test Cases/TC3_LoginPage,Edge Chromium 129,,,03-10-2024 01:29:27,03-10-2024 01:29:41,14.188s,PASSED
+"openBrowser("""")",Edge Chromium 129,,,03-10-2024 01:29:28,03-10-2024 01:29:33,5.217s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 129,,,03-10-2024 01:29:33,03-10-2024 01:29:36,3.490s,PASSED
+"click(findTestObject(""Object Repository/TC3_LoginPage_OR/a_CURA Healthcare_menu-toggle""))",Edge Chromium 129,,,03-10-2024 01:29:36,03-10-2024 01:29:37,0.484s,PASSED
+"click(findTestObject(""Object Repository/TC3_LoginPage_OR/a_Login""))",Edge Chromium 129,,,03-10-2024 01:29:37,03-10-2024 01:29:37,0.706s,PASSED
+"click(findTestObject(""Object Repository/TC3_LoginPage_OR/a_CURA Healthcare_menu-toggle""))",Edge Chromium 129,,,03-10-2024 01:29:37,03-10-2024 01:29:38,0.471s,PASSED
+"click(findTestObject(""Object Repository/TC3_LoginPage_OR/a_Login""))",Edge Chromium 129,,,03-10-2024 01:29:38,03-10-2024 01:29:38,0.332s,PASSED
+"setText(findTestObject(""Object Repository/TC3_LoginPage_OR/input_Username_username""), ""John Doe"")",Edge Chromium 129,,,03-10-2024 01:29:38,03-10-2024 01:29:39,0.714s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC3_LoginPage_OR/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 129,,,03-10-2024 01:29:39,03-10-2024 01:29:40,0.589s,PASSED
+"click(findTestObject(""Object Repository/TC3_LoginPage_OR/button_Login""))",Edge Chromium 129,,,03-10-2024 01:29:40,03-10-2024 01:29:41,1.243s,PASSED
+"click(findTestObject(""Object Repository/TC3_LoginPage_OR/h2_Make Appointment""))",Edge Chromium 129,,,03-10-2024 01:29:41,03-10-2024 01:29:41,0.361s,PASSED

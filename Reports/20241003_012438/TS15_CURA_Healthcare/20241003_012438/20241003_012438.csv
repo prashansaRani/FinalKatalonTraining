@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS15_CURA_Healthcare,Edge Chromium 129,,,03-10-2024 01:24:45,03-10-2024 01:24:58,13.219s,PASSED
+,,,,,,,
+Test Cases/TC15_CURA_Healthcare,Edge Chromium 129,,,03-10-2024 01:24:45,03-10-2024 01:24:58,12.879s,PASSED
+"openBrowser("""")",Edge Chromium 129,,,03-10-2024 01:24:46,03-10-2024 01:24:52,6.007s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 129,,,03-10-2024 01:24:52,03-10-2024 01:24:55,3.182s,PASSED
+"click(findTestObject(""Object Repository/TC15_CURA_Healthcare_OR/h4_CURA Healthcare Service""))",Edge Chromium 129,,,03-10-2024 01:24:55,03-10-2024 01:24:56,0.726s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC15_CURA_Healthcare_OR/strong_CURA Healthcare Service""), 0)",Edge Chromium 129,,,03-10-2024 01:24:56,03-10-2024 01:24:56,0.413s,PASSED
+"click(findTestObject(""Object Repository/TC15_CURA_Healthcare_OR/h1_CURA Healthcare Service""))",Edge Chromium 129,,,03-10-2024 01:24:56,03-10-2024 01:24:57,0.621s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC15_CURA_Healthcare_OR/h1_CURA Healthcare Service""), 0)",Edge Chromium 129,,,03-10-2024 01:24:57,03-10-2024 01:24:57,0.473s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC15_CURA_Healthcare_OR/h3_We Care About Your Health""), 0)",Edge Chromium 129,,,03-10-2024 01:24:57,03-10-2024 01:24:58,0.494s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC15_CURA_Healthcare_OR/a_Make Appointment""), 0)",Edge Chromium 129,,,03-10-2024 01:24:58,03-10-2024 01:24:58,0.322s,PASSED

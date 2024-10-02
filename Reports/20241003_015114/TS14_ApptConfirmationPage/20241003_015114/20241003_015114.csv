@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS14_ApptConfirmationPage,Edge Chromium 129,,,03-10-2024 01:51:21,03-10-2024 01:51:45,23.935s,PASSED
+,,,,,,,
+Test Cases/TC14_ApptConfirmationPage,Edge Chromium 129,,,03-10-2024 01:51:21,03-10-2024 01:51:45,23.557s,PASSED
+"callTestCase(findTestCase(""TC13_BookAppt""), [:], STOP_ON_FAILURE)",Edge Chromium 129,,,03-10-2024 01:51:22,03-10-2024 01:51:43,20.881s,PASSED
+"click(findTestObject(""Object Repository/TC14_ApptConfirmationPage_OR/h2_Appointment Confirmation""))",Edge Chromium 129,,,03-10-2024 01:51:43,03-10-2024 01:51:43,0.413s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC14_ApptConfirmationPage_OR/h2_Appointment Confirmation""), 0)",Edge Chromium 129,,,03-10-2024 01:51:43,03-10-2024 01:51:44,0.298s,PASSED
+"click(findTestObject(""Object Repository/TC14_ApptConfirmationPage_OR/p_Please be informed that your appointment _11813a""))",Edge Chromium 129,,,03-10-2024 01:51:44,03-10-2024 01:51:44,0.323s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC14_ApptConfirmationPage_OR/p_Please be informed that your appointment _11813a""), 0)",Edge Chromium 129,,,03-10-2024 01:51:44,03-10-2024 01:51:44,0.249s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC14_ApptConfirmationPage_OR/a_Go to Homepage""), 0)",Edge Chromium 129,,,03-10-2024 01:51:44,03-10-2024 01:51:45,0.285s,PASSED
+closeBrowser(),Edge Chromium 129,,,03-10-2024 01:51:45,03-10-2024 01:51:45,0.397s,PASSED

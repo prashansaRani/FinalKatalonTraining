@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS12_None" time="18.672" tests="1" failures="0" errors="0">
+   <testsuite name="TS12_None" tests="1" failures="0" errors="0" time="18.672" skipped="0" timestamp="03-10-2024T01:52:39" hostname="UC276JC - IN3155587W2.ey.net" id="Test Suites/TS12_None">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\UC276JC\\git\\FinalKatalonTraining\\Reports\\20241003_015231\\TS12_None\\20241003_015232"/>
+         <property name="logFiles" value="C:\\Users\\UC276JC\\git\\FinalKatalonTraining\\Reports\\20241003_015231\\TS12_None\\20241003_015232\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="UC276JC - IN3155587W2.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Edge Chromium 129"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="53cb986b7eb27ef834bcb69cc9166cf4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC12_None" time="18.339" classname="Test Cases/TC12_None" status="PASSED">
+         <system-out><![CDATA[03-10-2024T01:52:40 - [TEST_CASE][PASSED] - Test Cases/TC12_None: Test Cases/TC12_None
+
+03-10-2024T01:52:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC3_LoginPage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC3_LoginPage' successfully
+
+03-10-2024T01:52:41 - [TEST_CASE][PASSED] - Test Cases/TC3_LoginPage: Test Cases/TC3_LoginPage
+
+03-10-2024T01:52:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-10-2024T01:52:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+03-10-2024T01:52:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-10-2024T01:52:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-10-2024T01:52:46 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+03-10-2024T01:52:50 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+03-10-2024T01:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC3_LoginPage_OR/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/TC3_LoginPage_OR/a_CURA Healthcare_menu-toggle' is clicked on
+
+03-10-2024T01:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_LoginPage_OR/a_CURA Healthcare_menu-toggle' is clicked on
+
+03-10-2024T01:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC3_LoginPage_OR/a_Login")): Object: 'Object Repository/TC3_LoginPage_OR/a_Login' is clicked on
+
+03-10-2024T01:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_LoginPage_OR/a_Login' is clicked on
+
+03-10-2024T01:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC3_LoginPage_OR/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/TC3_LoginPage_OR/a_CURA Healthcare_menu-toggle' is clicked on
+
+03-10-2024T01:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_LoginPage_OR/a_CURA Healthcare_menu-toggle' is clicked on
+
+03-10-2024T01:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC3_LoginPage_OR/a_Login")): Object: 'Object Repository/TC3_LoginPage_OR/a_Login' is clicked on
+
+03-10-2024T01:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_LoginPage_OR/a_Login' is clicked on
+
+03-10-2024T01:52:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC3_LoginPage_OR/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC3_LoginPage_OR/input_Username_username'
+
+03-10-2024T01:52:53 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC3_LoginPage_OR/input_Username_username'
+
+03-10-2024T01:52:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC3_LoginPage_OR/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC3_LoginPage_OR/input_Password_password'
+
+03-10-2024T01:52:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC3_LoginPage_OR/input_Password_password'
+
+03-10-2024T01:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC3_LoginPage_OR/button_Login")): Object: 'Object Repository/TC3_LoginPage_OR/button_Login' is clicked on
+
+03-10-2024T01:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_LoginPage_OR/button_Login' is clicked on
+
+03-10-2024T01:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC3_LoginPage_OR/h2_Make Appointment")): Object: 'Object Repository/TC3_LoginPage_OR/h2_Make Appointment' is clicked on
+
+03-10-2024T01:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_LoginPage_OR/h2_Make Appointment' is clicked on
+
+03-10-2024T01:52:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC3_LoginPage' successfully
+
+03-10-2024T01:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC12_None_OR/input_None_programs")): Object: 'Object Repository/TC12_None_OR/input_None_programs' is clicked on
+
+03-10-2024T01:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC12_None_OR/input_None_programs' is clicked on
+
+03-10-2024T01:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC12_None_OR/label_Apply for hospital readmission")): Object: 'Object Repository/TC12_None_OR/label_Apply for hospital readmission' is clicked on
+
+03-10-2024T01:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC12_None_OR/label_Apply for hospital readmission' is clicked on
+
+03-10-2024T01:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC12_None_OR/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/TC12_None_OR/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+03-10-2024T01:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC12_None_OR/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+03-10-2024T01:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC12_None_OR/td_1")): Object: 'Object Repository/TC12_None_OR/td_1' is clicked on
+
+03-10-2024T01:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC12_None_OR/td_1' is clicked on
+
+03-10-2024T01:52:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC12_None_OR/textarea_Comment_comment"), "None"): Text 'None' is set on object 'Object Repository/TC12_None_OR/textarea_Comment_comment'
+
+03-10-2024T01:52:57 - [MESSAGE][PASSED] - Text 'None' is set on object 'Object Repository/TC12_None_OR/textarea_Comment_comment'
+
+03-10-2024T01:52:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/TC12_None_OR/h2_Make Appointment"), 0): Object 'Object Repository/TC12_None_OR/h2_Make Appointment' is present
+
+03-10-2024T01:52:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-10-2024T01:52:58 - [MESSAGE][PASSED] - Object 'Object Repository/TC12_None_OR/h2_Make Appointment' is present
+
+03-10-2024T01:52:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-10-2024T01:52:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-10-2024T01:52:39 - [TEST_SUITE][PASSED] - TS12_None: Test Cases/TC12_None]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

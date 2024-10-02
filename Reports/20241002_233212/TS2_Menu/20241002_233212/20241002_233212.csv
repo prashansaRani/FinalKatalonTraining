@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2_Menu,Edge Chromium 129,,,02-10-2024 23:32:50,02-10-2024 23:33:08,18.384s,PASSED
+,,,,,,,
+Test Cases/TC2_Menu,Edge Chromium 129,,,02-10-2024 23:32:50,02-10-2024 23:33:08,17.800s,PASSED
+"openBrowser("""")",Edge Chromium 129,,,02-10-2024 23:32:51,02-10-2024 23:32:57,6.072s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 129,,,02-10-2024 23:32:57,02-10-2024 23:33:01,4.308s,PASSED
+"click(findTestObject(""Object Repository/TC2_Menu_OR/i_CURA Healthcare_fa fa-bars""))",Edge Chromium 129,,,02-10-2024 23:33:01,02-10-2024 23:33:04,2.195s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC2_Menu_OR/a_Home""), 0)",Edge Chromium 129,,,02-10-2024 23:33:04,02-10-2024 23:33:05,1.738s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC2_Menu_OR/a_Login""), 0)",Edge Chromium 129,,,02-10-2024 23:33:05,02-10-2024 23:33:07,1.975s,PASSED
+closeBrowser(),Edge Chromium 129,,,02-10-2024 23:33:07,02-10-2024 23:33:08,0.703s,PASSED

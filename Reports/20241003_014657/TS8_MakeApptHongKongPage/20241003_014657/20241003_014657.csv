@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS8_MakeApptHongKongPage,Edge Chromium 129,,,03-10-2024 01:47:06,03-10-2024 01:48:15,1m - 8.538s,PASSED
+,,,,,,,
+Test Cases/TC8_MakeApptHongKongPage,Edge Chromium 129,,,03-10-2024 01:47:58,03-10-2024 01:48:15,16.888s,PASSED
+"openBrowser("""")",Edge Chromium 129,,,03-10-2024 01:47:58,03-10-2024 01:48:02,4.106s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 129,,,03-10-2024 01:48:02,03-10-2024 01:48:05,3.481s,PASSED
+"click(findTestObject(""TC7_MakeApptTokyoPage_OR/i_CURA Healthcare_fa fa-bars""))",Edge Chromium 129,,,03-10-2024 01:48:05,03-10-2024 01:48:06,0.332s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/a_Login""))",Edge Chromium 129,,,03-10-2024 01:48:06,03-10-2024 01:48:06,0.759s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/input_Demo account_form-control""))",Edge Chromium 129,,,03-10-2024 01:48:06,03-10-2024 01:48:07,0.515s,PASSED
+"setText(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/input_Username_username""), ""John Doe"")",Edge Chromium 129,,,03-10-2024 01:48:07,03-10-2024 01:48:08,0.620s,PASSED
+"setText(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/input_Demo account_form-control_1""), ""ThisIsNotAPassword"")",Edge Chromium 129,,,03-10-2024 01:48:08,03-10-2024 01:48:08,0.721s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/input_Demo account_form-control_1""))",Edge Chromium 129,,,03-10-2024 01:48:08,03-10-2024 01:48:09,0.562s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 129,,,03-10-2024 01:48:09,03-10-2024 01:48:09,0.456s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/button_Login""))",Edge Chromium 129,,,03-10-2024 01:48:09,03-10-2024 01:48:10,1.011s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Edge Chromium 129,,,03-10-2024 01:48:10,03-10-2024 01:48:11,0.901s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/label_Apply for hospital readmission""))",Edge Chromium 129,,,03-10-2024 01:48:11,03-10-2024 01:48:12,0.293s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/div_Visit Date (Required)_input-group-addon""))",Edge Chromium 129,,,03-10-2024 01:48:12,03-10-2024 01:48:12,0.308s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Edge Chromium 129,,,03-10-2024 01:48:12,03-10-2024 01:48:12,0.513s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/th_""))",Edge Chromium 129,,,03-10-2024 01:48:12,03-10-2024 01:48:13,0.514s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/td_14""))",Edge Chromium 129,,,03-10-2024 01:48:13,03-10-2024 01:48:13,0.489s,PASSED
+"setText(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/textarea_Comment_comment""), ""Hongkong appointment"")",Edge Chromium 129,,,03-10-2024 01:48:13,03-10-2024 01:48:14,0.804s,PASSED
+closeBrowser(),Edge Chromium 129,,,03-10-2024 01:48:14,03-10-2024 01:48:15,0.471s,PASSED

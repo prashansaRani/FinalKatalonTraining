@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS7_MakeApptTokyoPage" time="27.179" tests="1" failures="0" errors="0">
+   <testsuite name="TS7_MakeApptTokyoPage" tests="1" failures="0" errors="0" time="27.179" skipped="0" timestamp="03-10-2024T01:32:32" hostname="UC276JC - IN3155587W2.ey.net" id="Test Suites/TS7_MakeApptTokyoPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\UC276JC\\git\\FinalKatalonTraining\\Reports\\20241003_013225\\TS7_MakeApptTokyoPage\\20241003_013226"/>
+         <property name="logFiles" value="C:\\Users\\UC276JC\\git\\FinalKatalonTraining\\Reports\\20241003_013225\\TS7_MakeApptTokyoPage\\20241003_013226\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="UC276JC - IN3155587W2.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Edge Chromium 129"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="666678013a7af675a9ba1014d89c34b4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC7_MakeApptTokyoPage" time="26.799" classname="Test Cases/TC7_MakeApptTokyoPage" status="PASSED">
+         <system-out><![CDATA[03-10-2024T01:32:32 - [TEST_CASE][PASSED] - Test Cases/TC7_MakeApptTokyoPage: Test Cases/TC7_MakeApptTokyoPage
+
+03-10-2024T01:32:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-10-2024T01:32:33 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+03-10-2024T01:32:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-10-2024T01:32:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-10-2024T01:32:42 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+03-10-2024T01:32:44 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+03-10-2024T01:32:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/i_CURA Healthcare_fa fa-bars' is clicked on
+
+03-10-2024T01:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/i_CURA Healthcare_fa fa-bars' is clicked on
+
+03-10-2024T01:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/a_Login")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/a_Login' is clicked on
+
+03-10-2024T01:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/a_Login' is clicked on
+
+03-10-2024T01:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control' is clicked on
+
+03-10-2024T01:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control' is clicked on
+
+03-10-2024T01:32:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Username_username'
+
+03-10-2024T01:32:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Username_username'
+
+03-10-2024T01:32:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1'
+
+03-10-2024T01:32:53 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1'
+
+03-10-2024T01:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1' is clicked on
+
+03-10-2024T01:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Demo account_form-control_1' is clicked on
+
+03-10-2024T01:32:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Password_password'
+
+03-10-2024T01:32:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/input_Password_password'
+
+03-10-2024T01:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/button_Login")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/button_Login' is clicked on
+
+03-10-2024T01:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/button_Login' is clicked on
+
+03-10-2024T01:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/label_Apply for hospital readmission")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/label_Apply for hospital readmission' is clicked on
+
+03-10-2024T01:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/label_Apply for hospital readmission' is clicked on
+
+03-10-2024T01:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+03-10-2024T01:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+03-10-2024T01:32:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/td_24")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/td_24' is clicked on
+
+03-10-2024T01:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/td_24' is clicked on
+
+03-10-2024T01:32:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/textarea_Comment_comment"), "Tokyo appointment"): Text 'Tokyo appointment' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/textarea_Comment_comment'
+
+03-10-2024T01:32:58 - [MESSAGE][PASSED] - Text 'Tokyo appointment' is set on object 'Object Repository/TC7_MakeApptTokyoPage_OR/textarea_Comment_comment'
+
+03-10-2024T01:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/div_Comment")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/div_Comment' is clicked on
+
+03-10-2024T01:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/div_Comment' is clicked on
+
+03-10-2024T01:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment")): Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment' is clicked on
+
+03-10-2024T01:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment' is clicked on
+
+03-10-2024T01:32:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment' are matched.
+
+03-10-2024T01:32:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC7_MakeApptTokyoPage_OR/h2_Make Appointment' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-10-2024T01:32:32 - [TEST_SUITE][PASSED] - TS7_MakeApptTokyoPage: Test Cases/TC7_MakeApptTokyoPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

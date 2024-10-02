@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS8_MakeApptHongKongPage,Edge Chromium 129,,,03-10-2024 01:33:16,03-10-2024 01:33:48,32.594s,FAILED
+,,,,,,,
+Test Cases/TC8_MakeApptHongKongPage,Edge Chromium 129,,,03-10-2024 01:33:42,03-10-2024 01:33:48,5.722s,FAILED
+"openBrowser("""")",Edge Chromium 129,,,03-10-2024 01:33:42,03-10-2024 01:33:46,3.923s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 129,,,03-10-2024 01:33:46,03-10-2024 01:33:47,0.583s,PASSED
+"click(findTestObject(""Object Repository/TC8_MakeApptHongKongPage_OR/a_Login""))",Edge Chromium 129,,,03-10-2024 01:33:47,03-10-2024 01:33:48,1.193s,FAILED

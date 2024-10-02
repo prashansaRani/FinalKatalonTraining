@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS6_ProfilePage,Edge Chromium 129,,,03-10-2024 01:31:28,03-10-2024 01:31:47,18.847s,PASSED
+,,,,,,,
+Test Cases/TC6_ProfilePage,Edge Chromium 129,,,03-10-2024 01:31:28,03-10-2024 01:31:47,18.430s,PASSED
+"openBrowser("""")",Edge Chromium 129,,,03-10-2024 01:31:29,03-10-2024 01:31:35,5.473s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 129,,,03-10-2024 01:31:35,03-10-2024 01:31:36,1.359s,PASSED
+"click(findTestObject(""Object Repository/TC6_ProfilePage_OR/i_CURA Healthcare_fa fa-bars""))",Edge Chromium 129,,,03-10-2024 01:31:36,03-10-2024 01:31:39,2.893s,PASSED
+"click(findTestObject(""Object Repository/TC6_ProfilePage_OR/a_Login""))",Edge Chromium 129,,,03-10-2024 01:31:39,03-10-2024 01:31:40,0.696s,PASSED
+"click(findTestObject(""Object Repository/TC6_ProfilePage_OR/input_Demo account_form-control""))",Edge Chromium 129,,,03-10-2024 01:31:40,03-10-2024 01:31:40,0.447s,PASSED
+"setText(findTestObject(""Object Repository/TC6_ProfilePage_OR/input_Username_username""), ""John Doe"")",Edge Chromium 129,,,03-10-2024 01:31:40,03-10-2024 01:31:41,0.699s,PASSED
+"setText(findTestObject(""Object Repository/TC6_ProfilePage_OR/input_Demo account_form-control_1""), ""ThisIsNotAPassword"")",Edge Chromium 129,,,03-10-2024 01:31:41,03-10-2024 01:31:41,0.696s,PASSED
+"click(findTestObject(""Object Repository/TC6_ProfilePage_OR/input_Demo account_form-control_1""))",Edge Chromium 129,,,03-10-2024 01:31:41,03-10-2024 01:31:42,0.460s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC6_ProfilePage_OR/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 129,,,03-10-2024 01:31:42,03-10-2024 01:31:42,0.499s,PASSED
+"click(findTestObject(""Object Repository/TC6_ProfilePage_OR/button_Login""))",Edge Chromium 129,,,03-10-2024 01:31:42,03-10-2024 01:31:43,1.069s,PASSED
+"click(findTestObject(""Object Repository/TC6_ProfilePage_OR/i_CURA Healthcare_fa fa-bars""))",Edge Chromium 129,,,03-10-2024 01:31:43,03-10-2024 01:31:44,0.335s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC6_ProfilePage_OR/a_Profile""), 0)",Edge Chromium 129,,,03-10-2024 01:31:44,03-10-2024 01:31:44,0.336s,PASSED
+"click(findTestObject(""Object Repository/TC6_ProfilePage_OR/a_Profile""))",Edge Chromium 129,,,03-10-2024 01:31:44,03-10-2024 01:31:45,0.705s,PASSED
+"rightClick(findTestObject(""Object Repository/TC6_ProfilePage_OR/h2_Profile""))",Edge Chromium 129,,,03-10-2024 01:31:45,03-10-2024 01:31:45,0.620s,PASSED
+"click(findTestObject(""Object Repository/TC6_ProfilePage_OR/h2_Profile""))",Edge Chromium 129,,,03-10-2024 01:31:45,03-10-2024 01:31:46,0.363s,PASSED
+"doubleClick(findTestObject(""Object Repository/TC6_ProfilePage_OR/h2_Profile""))",Edge Chromium 129,,,03-10-2024 01:31:46,03-10-2024 01:31:46,0.429s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC6_ProfilePage_OR/h2_Profile""), ""Profile"")",Edge Chromium 129,,,03-10-2024 01:31:46,03-10-2024 01:31:47,0.310s,PASSED
+closeBrowser(),Edge Chromium 129,,,03-10-2024 01:31:47,03-10-2024 01:31:47,0.353s,PASSED

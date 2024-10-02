@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS12_None,Edge Chromium 129,,,03-10-2024 01:52:39,03-10-2024 01:52:58,18.672s,PASSED
+,,,,,,,
+Test Cases/TC12_None,Edge Chromium 129,,,03-10-2024 01:52:40,03-10-2024 01:52:58,18.339s,PASSED
+"callTestCase(findTestCase(""TC3_LoginPage""), [:], STOP_ON_FAILURE)",Edge Chromium 129,,,03-10-2024 01:52:40,03-10-2024 01:52:55,14.597s,PASSED
+"click(findTestObject(""Object Repository/TC12_None_OR/input_None_programs""))",Edge Chromium 129,,,03-10-2024 01:52:55,03-10-2024 01:52:55,0.345s,PASSED
+"click(findTestObject(""Object Repository/TC12_None_OR/label_Apply for hospital readmission""))",Edge Chromium 129,,,03-10-2024 01:52:55,03-10-2024 01:52:56,0.336s,PASSED
+"click(findTestObject(""Object Repository/TC12_None_OR/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Edge Chromium 129,,,03-10-2024 01:52:56,03-10-2024 01:52:56,0.340s,PASSED
+"click(findTestObject(""Object Repository/TC12_None_OR/td_1""))",Edge Chromium 129,,,03-10-2024 01:52:56,03-10-2024 01:52:56,0.526s,PASSED
+"setText(findTestObject(""Object Repository/TC12_None_OR/textarea_Comment_comment""), ""None"")",Edge Chromium 129,,,03-10-2024 01:52:56,03-10-2024 01:52:57,0.827s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC12_None_OR/h2_Make Appointment""), 0)",Edge Chromium 129,,,03-10-2024 01:52:57,03-10-2024 01:52:58,0.287s,PASSED
+closeBrowser(),Edge Chromium 129,,,03-10-2024 01:52:58,03-10-2024 01:52:58,0.429s,PASSED

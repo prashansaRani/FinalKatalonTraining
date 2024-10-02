@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS11_Medicaid,Chrome 129.0.0.0,,,03-10-2024 01:14:44,03-10-2024 01:18:49,4m - 5.952s,FAILED
+,,,,,,,
+Test Cases/TC11_Medicaid,Chrome 129.0.0.0,,,03-10-2024 01:17:47,03-10-2024 01:18:49,1m - 2.296s,FAILED
+"callTestCase(findTestCase(""TC3_LoginPage""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,03-10-2024 01:17:47,03-10-2024 01:18:49,1m - 2.266s,FAILED

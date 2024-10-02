@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS10_Medicare,Edge Chromium 129,,,03-10-2024 01:14:29,03-10-2024 01:15:16,47.307s,PASSED
+,,,,,,,
+Test Cases/TC10_Medicare,Edge Chromium 129,,,03-10-2024 01:14:29,03-10-2024 01:15:16,46.941s,PASSED
+"callTestCase(findTestCase(""TC3_LoginPage""), [:], STOP_ON_FAILURE)",Edge Chromium 129,,,03-10-2024 01:14:30,03-10-2024 01:15:08,38.028s,PASSED
+"click(findTestObject(""Object Repository/TC10_Medicare_OR/label_Medicare""))",Edge Chromium 129,,,03-10-2024 01:15:08,03-10-2024 01:15:09,0.715s,PASSED
+"click(findTestObject(""Object Repository/TC10_Medicare_OR/input_Apply for hospital readmission_hospit_63901f""))",Edge Chromium 129,,,03-10-2024 01:15:09,03-10-2024 01:15:09,0.779s,PASSED
+"click(findTestObject(""Object Repository/TC10_Medicare_OR/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Edge Chromium 129,,,03-10-2024 01:15:09,03-10-2024 01:15:10,0.793s,PASSED
+"click(findTestObject(""Object Repository/TC10_Medicare_OR/td_4""))",Edge Chromium 129,,,03-10-2024 01:15:10,03-10-2024 01:15:11,0.678s,PASSED
+"setText(findTestObject(""Object Repository/TC10_Medicare_OR/textarea_Comment_comment""), ""medicare"")",Edge Chromium 129,,,03-10-2024 01:15:11,03-10-2024 01:15:12,1.325s,PASSED
+closeBrowser(),Edge Chromium 129,,,03-10-2024 01:15:12,03-10-2024 01:15:16,3.964s,PASSED

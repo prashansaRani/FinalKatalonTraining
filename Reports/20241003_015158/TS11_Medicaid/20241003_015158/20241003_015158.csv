@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS11_Medicaid,Edge Chromium 129,,,03-10-2024 01:52:05,03-10-2024 01:52:23,18.126s,PASSED
+,,,,,,,
+Test Cases/TC11_Medicaid,Edge Chromium 129,,,03-10-2024 01:52:05,03-10-2024 01:52:23,17.802s,PASSED
+"callTestCase(findTestCase(""TC3_LoginPage""), [:], STOP_ON_FAILURE)",Edge Chromium 129,,,03-10-2024 01:52:06,03-10-2024 01:52:20,14.476s,PASSED
+"click(findTestObject(""Object Repository/TC11_Medicaid_OR/input_Medicaid_programs""))",Edge Chromium 129,,,03-10-2024 01:52:20,03-10-2024 01:52:20,0.358s,PASSED
+"click(findTestObject(""Object Repository/TC11_Medicaid_OR/label_Apply for hospital readmission""))",Edge Chromium 129,,,03-10-2024 01:52:20,03-10-2024 01:52:21,0.332s,PASSED
+"click(findTestObject(""Object Repository/TC11_Medicaid_OR/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Edge Chromium 129,,,03-10-2024 01:52:21,03-10-2024 01:52:21,0.332s,PASSED
+"click(findTestObject(""Object Repository/TC11_Medicaid_OR/td_31""))",Edge Chromium 129,,,03-10-2024 01:52:21,03-10-2024 01:52:22,0.550s,PASSED
+"setText(findTestObject(""Object Repository/TC11_Medicaid_OR/textarea_Comment_comment""), ""Medicaid"")",Edge Chromium 129,,,03-10-2024 01:52:22,03-10-2024 01:52:22,0.817s,PASSED
+closeBrowser(),Edge Chromium 129,,,03-10-2024 01:52:22,03-10-2024 01:52:23,0.353s,PASSED

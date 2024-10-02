@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS4_LogoutPage,Edge Chromium 129,,,03-10-2024 01:30:17,03-10-2024 01:30:36,19.311s,PASSED
+,,,,,,,
+Test Cases/TC4_LogoutPage,Edge Chromium 129,,,03-10-2024 01:30:17,03-10-2024 01:30:36,18.891s,PASSED
+"openBrowser("""")",Edge Chromium 129,,,03-10-2024 01:30:18,03-10-2024 01:30:24,6.161s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 129,,,03-10-2024 01:30:24,03-10-2024 01:30:28,3.479s,PASSED
+"click(findTestObject(""Object Repository/TC4_LogoutPage_OR/div_CURA Healthcare Service                _bba294""))",Edge Chromium 129,,,03-10-2024 01:30:28,03-10-2024 01:30:28,0.791s,PASSED
+"click(findTestObject(""Object Repository/TC4_LogoutPage_OR/i_CURA Healthcare_fa fa-bars""))",Edge Chromium 129,,,03-10-2024 01:30:28,03-10-2024 01:30:29,0.728s,PASSED
+"click(findTestObject(""Object Repository/TC4_LogoutPage_OR/a_Login""))",Edge Chromium 129,,,03-10-2024 01:30:29,03-10-2024 01:30:31,1.575s,PASSED
+"click(findTestObject(""Object Repository/TC4_LogoutPage_OR/span_Demo account_glyphicon glyphicon-user""))",Edge Chromium 129,,,03-10-2024 01:30:31,03-10-2024 01:30:31,0.552s,PASSED
+"setText(findTestObject(""Object Repository/TC4_LogoutPage_OR/input_Username_username""), ""John Doe"")",Edge Chromium 129,,,03-10-2024 01:30:31,03-10-2024 01:30:32,0.822s,PASSED
+"setText(findTestObject(""Object Repository/TC4_LogoutPage_OR/input_Demo account_form-control""), ""ThisIsNotAPassword"")",Edge Chromium 129,,,03-10-2024 01:30:32,03-10-2024 01:30:33,0.738s,PASSED
+"click(findTestObject(""Object Repository/TC4_LogoutPage_OR/input_Demo account_form-control""))",Edge Chromium 129,,,03-10-2024 01:30:33,03-10-2024 01:30:33,0.310s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC4_LogoutPage_OR/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 129,,,03-10-2024 01:30:33,03-10-2024 01:30:34,0.392s,PASSED
+"click(findTestObject(""Object Repository/TC4_LogoutPage_OR/button_Login""))",Edge Chromium 129,,,03-10-2024 01:30:34,03-10-2024 01:30:34,0.944s,PASSED
+"click(findTestObject(""Object Repository/TC4_LogoutPage_OR/i_CURA Healthcare_fa fa-bars""))",Edge Chromium 129,,,03-10-2024 01:30:34,03-10-2024 01:30:35,0.521s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC4_LogoutPage_OR/a_Logout""), 0)",Edge Chromium 129,,,03-10-2024 01:30:35,03-10-2024 01:30:35,0.281s,PASSED
+"click(findTestObject(""Object Repository/TC4_LogoutPage_OR/a_Logout""))",Edge Chromium 129,,,03-10-2024 01:30:35,03-10-2024 01:30:36,0.942s,PASSED

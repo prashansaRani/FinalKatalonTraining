@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_LandingPage,Edge Chromium 129,,,03-10-2024 01:26:51,03-10-2024 01:27:03,11.543s,PASSED
+,,,,,,,
+Test Cases/TC1_LandingPage,Edge Chromium 129,,,03-10-2024 01:26:51,03-10-2024 01:27:03,11.170s,PASSED
+"openBrowser("""")",Edge Chromium 129,,,03-10-2024 01:26:52,03-10-2024 01:26:58,5.856s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 129,,,03-10-2024 01:26:58,03-10-2024 01:27:01,3.429s,PASSED
+"click(findTestObject(""Object Repository/TC1_LandingPage_OR/Page_CURA Healthcare Service/strong_CURA Healthcare Service""))",Edge Chromium 129,,,03-10-2024 01:27:01,03-10-2024 01:27:02,0.631s,PASSED
+closeBrowser(),Edge Chromium 129,,,03-10-2024 01:27:02,03-10-2024 01:27:03,0.647s,PASSED

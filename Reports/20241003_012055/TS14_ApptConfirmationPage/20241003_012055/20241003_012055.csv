@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS14_ApptConfirmationPage,Chrome 129.0.0.0,,,03-10-2024 01:21:04,03-10-2024 01:23:55,2m - 51.480s,FAILED
+,,,,,,,
+Test Cases/TC14_ApptConfirmationPage,Chrome 129.0.0.0,,,03-10-2024 01:23:16,03-10-2024 01:23:55,39.794s,FAILED
+"callTestCase(findTestCase(""TC13_BookAppt""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,03-10-2024 01:23:16,03-10-2024 01:23:55,39.785s,FAILED
